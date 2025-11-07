@@ -6,20 +6,21 @@
 }
 
 :root {
-    --primary-bg: #1a0b2e;
-    --secondary-bg: rgba(42, 20, 60, 0.8);
-    --tertiary-bg: rgba(60, 30, 80, 0.6);
-    --primary-accent: #FF6B6B;
-    --secondary-accent: #FFB347;
-    --neutral-surface: #FFF5F5;
-    --error-alert: #E63946;
-    --text-primary: #FFF5F5;
-    --text-secondary: rgba(255, 245, 245, 0.9);
-    --text-muted: rgba(255, 245, 245, 0.7);
-    --gradient-start: #1a0b2e;
-    --gradient-mid1: #2d1b4e;
-    --gradient-mid2: #4a2c5e;
-    --gradient-end: #5c3d6e;
+    /* Scorely Sunset Theme Colors */
+    --primary-bg: #2A1B0D;
+    --secondary-bg: rgba(78, 61, 35, 0.8);
+    --tertiary-bg: rgba(51, 38, 21, 0.6);
+    --primary-accent: #FF5722;
+    --secondary-accent: #FF9800;
+    --neutral-surface: #FFF8F0;
+    --error-alert: #E53935;
+    --text-primary: #FFF8F0;
+    --text-secondary: rgba(255, 248, 240, 0.9);
+    --text-muted: rgba(255, 248, 240, 0.7);
+    --gradient-start: #2D1A08;
+    --gradient-mid1: #3b2515;
+    --gradient-mid2: #4E3D23;
+    --gradient-end: #674321;
 }
 
 body {
@@ -40,13 +41,13 @@ body {
 
 /* Navigation Bar */
 .navbar {
-    background: rgba(26, 11, 46, 0.95);
+    background: rgba(42, 27, 13, 0.95);
     backdrop-filter: blur(10px);
     padding: 1rem 0;
     position: sticky;
     top: 0;
     z-index: 1000;
-    border-bottom: 1px solid rgba(255, 107, 107, 0.2);
+    border-bottom: 1px solid rgba(255, 87, 34, 0.2);
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
 }
 
@@ -146,17 +147,17 @@ main {
 }
 
 .btn-primary:hover {
-    background: linear-gradient(135deg, #FF6B6B 0%, #FFB347 100%);
+    background: linear-gradient(135deg, #FF5722 0%, #FF9800 100%);
     transform: translateY(-2px);
-    box-shadow: 0 8px 30px rgba(255, 107, 107, 0.5);
+    box-shadow: 0 8px 30px rgba(255, 87, 34, 0.5);
 }
 
 /* Features Section */
 .features {
     padding: 5rem 0;
     background: linear-gradient(180deg, 
-        rgba(26, 11, 46, 0.3) 0%, 
-        rgba(60, 30, 80, 0.5) 100%);
+        rgba(42, 27, 13, 0.3) 0%, 
+        rgba(78, 61, 35, 0.5) 100%);
     backdrop-filter: blur(5px);
 }
 
@@ -174,9 +175,9 @@ main {
 }
 
 .feature-card {
-    background: rgba(60, 30, 80, 0.4);
+    background: rgba(78, 61, 35, 0.4);
     backdrop-filter: blur(10px);
-    border: 1px solid rgba(255, 107, 107, 0.2);
+    border: 1px solid rgba(255, 87, 34, 0.2);
     padding: 2rem;
     border-radius: 16px;
     text-align: center;
@@ -185,8 +186,8 @@ main {
 
 .feature-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 15px 40px rgba(255, 107, 107, 0.3);
-    border-color: rgba(255, 179, 71, 0.5);
+    box-shadow: 0 15px 40px rgba(255, 87, 34, 0.3);
+    border-color: rgba(255, 152, 0, 0.5);
 }
 
 .feature-icon {
@@ -229,8 +230,8 @@ main {
 .legal {
     padding: 5rem 0;
     background: linear-gradient(180deg, 
-        rgba(60, 30, 80, 0.5) 0%, 
-        rgba(26, 11, 46, 0.3) 100%);
+        rgba(78, 61, 35, 0.5) 0%, 
+        rgba(42, 27, 13, 0.3) 100%);
     backdrop-filter: blur(5px);
 }
 
@@ -248,9 +249,9 @@ main {
 }
 
 .legal-link {
-    background: rgba(60, 30, 80, 0.4);
+    background: rgba(78, 61, 35, 0.4);
     backdrop-filter: blur(10px);
-    border: 1px solid rgba(255, 107, 107, 0.2);
+    border: 1px solid rgba(255, 87, 34, 0.2);
     padding: 2rem;
     border-radius: 16px;
     text-decoration: none;
@@ -261,8 +262,8 @@ main {
 
 .legal-link:hover {
     transform: translateY(-5px);
-    box-shadow: 0 15px 40px rgba(255, 179, 71, 0.3);
-    border-color: rgba(255, 179, 71, 0.5);
+    box-shadow: 0 15px 40px rgba(255, 152, 0, 0.3);
+    border-color: rgba(255, 152, 0, 0.5);
 }
 
 .legal-link h3 {
@@ -340,10 +341,10 @@ main {
 
 /* Highlight Box */
 .highlight-box {
-    background: rgba(60, 30, 80, 0.5);
+    background: rgba(78, 61, 35, 0.5);
     backdrop-filter: blur(10px);
     border-left: 4px solid var(--primary-accent);
-    border: 1px solid rgba(255, 107, 107, 0.3);
+    border: 1px solid rgba(255, 87, 34, 0.3);
     padding: 1.5rem;
     margin: 1.5rem 0;
     border-radius: 8px;
@@ -363,9 +364,9 @@ main {
 
 /* Contact Info */
 .contact-info {
-    background: rgba(60, 30, 80, 0.5);
+    background: rgba(78, 61, 35, 0.5);
     backdrop-filter: blur(10px);
-    border: 1px solid rgba(255, 107, 107, 0.2);
+    border: 1px solid rgba(255, 87, 34, 0.2);
     padding: 1.5rem;
     border-radius: 12px;
     margin: 1rem 0;
@@ -404,17 +405,17 @@ main {
 
 .back-link a:hover {
     color: var(--primary-accent);
-    text-shadow: 0 0 10px rgba(255, 107, 107, 0.5);
+    text-shadow: 0 0 10px rgba(255, 87, 34, 0.5);
 }
 
 /* Footer */
 footer {
-    background: rgba(26, 11, 46, 0.95);
+    background: rgba(42, 27, 13, 0.95);
     backdrop-filter: blur(10px);
     padding: 2rem 0;
     text-align: center;
     margin-top: auto;
-    border-top: 1px solid rgba(255, 107, 107, 0.2);
+    border-top: 1px solid rgba(255, 87, 34, 0.2);
 }
 
 footer p {
