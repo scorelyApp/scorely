@@ -480,6 +480,35 @@ footer a:hover {
     }
 }
 
+/* FAQ Styling */
+.faq-item {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    background: rgba(78, 61, 35, 0.3);
+    border-radius: 12px;
+    border-left: 3px solid var(--secondary-accent);
+}
+
+.faq-item h4 {
+    font-size: 1.2rem;
+    margin-bottom: 0.75rem;
+    color: var(--secondary-accent);
+}
+
+.faq-item p {
+    margin-bottom: 0.75rem;
+}
+
+.faq-item ul,
+.faq-item ol {
+    margin-left: 1.5rem;
+    margin-top: 0.5rem;
+}
+
+.faq-item li {
+    margin-bottom: 0.5rem;
+}
+
 /* Print Styles */
 @media print {
     body {
